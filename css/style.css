@@ -1,0 +1,1017 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;600&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #484B57;
+}
+
+b {
+    font-weight: 700;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.br-mobile {
+    display: none;
+}
+
+.background-nav {
+    background-color: white;
+    padding: 18px 0;
+    position: relative;
+    z-index: 2;
+    box-shadow: 0 3px 15px #0000002e;
+}
+
+.background-image {
+    background-image: url(../image/background-desktop.png);
+    background-size: cover;
+    padding: 48px 0;
+}
+
+.bg-white {
+    padding: 100px 0;
+    background-color: white;
+    position: relative;
+}
+
+.bg-darkblue {
+    background-color: #3B4157 !important;
+    padding: 64px 0;
+}
+
+.drn-logo-container {
+    display: block;
+}
+
+.drn-logo {
+    width: 70%;
+}
+
+.drn-text1 {
+    font-size: 18px;
+    text-align: right;
+    margin: 0;
+}
+
+.drn-text2 {
+    font-size: 56px;
+    line-height: 1.1;
+    font-weight: 700;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.drn-text3 {
+    font-size: 28px;
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.drn-text3 span {
+    background-color: #FF594E;
+}
+
+.drn-text4 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.drn-text5 {
+    font-size: 28px;
+    color: #FF594E;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    margin-bottom: 32px;
+}
+
+.drn-text6 {
+    font-size: 24px;
+    line-height: 1.2;
+    color: #3B4157;
+    width: 83%;
+}
+
+.drn-text7 {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.drn-text10 {
+    font-size: 18px;
+    color: #3B4157;
+}
+
+.drn-text11 {
+    font-size: 18px;
+    color: #3B4157;
+}
+
+.drn-text12 {
+    font-size: 32px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+}
+
+.drn-text13 {
+    font-size: 24px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+}
+
+.drn-titulo {
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1;
+    margin: 0 auto 32px;
+    width: 85%;
+    color: white;
+    width: 65%;
+}
+
+.drn-titulo span {
+    color: white;
+    background-image: url(../image/mark.svg);
+    background-size: cover;
+    font-size: 48px;
+    text-transform: uppercase;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    height: 0;
+}
+
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.seta {
+    margin: 40px auto 0;
+    font-size: 2rem;
+    display: block;
+    text-align: center;
+}
+
+.doutor-rafael {
+    position: absolute;
+    bottom: 0;
+    right: 12%;
+    width: 28%;
+}
+
+.box-white {
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    border-radius: 40px;
+    width: 95%;
+    margin: 24px auto 100px;
+}
+
+.box-white-buy {
+    padding: 32px 24px;
+    border-radius: 12px;
+    background-color: white;
+}
+
+.box-white-buy-mobile {
+    background-color: white;
+    padding: 18px 0;
+    border-radius: 8px;
+}
+
+.shadow {
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .25) !important;
+}
+
+.bg-medium-gray-2 {
+    background-color: #606160;
+    border-radius: 8px;
+}
+
+.nav {
+    width: 90%;
+    margin: 32px auto;
+}
+
+.nav-pills .nav-item {
+    background: #E6E7E7;
+    border-radius: .25rem;
+    margin: 0 .25rem;
+    padding: .5rem;
+}
+
+.nav-pills .nav-item.active {
+    background: #64EB7A;
+    color: #fff;
+}
+
+.nav-pills a:hover {
+    text-decoration: none;
+}
+
+.nav-pills a:hover * {
+    opacity: .9;
+}
+
+.nav-pills a * {
+    color: #666;
+    opacity: .5;
+    transition: opacity .4s;
+}
+
+.nav-pills a.active * {
+    color: #fff;
+    opacity: 1;
+}
+
+.lead {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+#pills-optionsContent .lead small {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#badge-discount {
+    position: absolute;
+    width: 85px;
+    top: 55px;
+    right: -5px;
+}
+
+#pills-optionsContent .lead {
+    font-size: 22px;
+    line-height: 1.1;
+}
+
+.btn-primary {
+    background-color: #FF594E;
+    border-color: #FF594E;
+    transition: .4s ease-in-out;
+    display: block;
+    width: 80%;
+    margin: 24px auto;
+    border-radius: 40px;
+    font-size: 26px;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    background-color: #FF594E !important;
+    border-color: #FF594E !important;
+    transform: scale(1.1);
+}
+
+ul.img-list {
+    padding: 0;
+    list-style: none;
+}
+
+ul.img-list li {
+    font-size: 16px;
+    margin-bottom: 13px;
+    color: #888;
+}
+
+ul.img-list img {
+    margin-right: 5px;
+    width: 16px;
+    margin-top: -3px;
+    height: auto;
+}
+
+.bg-gray {
+    background-color: #E5E7E7;
+}
+
+
+/* Checkbox */
+
+.drnature-check {
+    cursor: pointer;
+    font-size: 17px;
+    line-height: 1;
+}
+
+.drnature-check input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.container-img {
+    display: block;
+}
+
+.selo {
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+.drn-image {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.drn-btn-ckt {
+    display: block;
+    width: 50%;
+    padding: 32px 0;
+    background-color: #FF594E;
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 100px auto 120px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 24px;
+    transition: .4s ease-in-out;
+}
+
+.drn-btn-ckt:hover {
+    transform: scale(1.1);
+    color: white;
+    text-decoration: none;
+}
+
+.list-container {
+    display: block;
+    margin: 0 auto 56px;
+    width: 50%;
+}
+
+li {
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+
+li::marker {
+    color: #1FAB36;
+}
+
+.buy-desktop {
+    display: block;
+}
+
+.buy-mobile {
+    display: none;
+}
+
+
+/* FOOTER */
+
+.background-gray {
+    background-color: #F5F5F5;
+    padding: 64px;
+}
+
+.drn-text8 {
+    font-size: 14px;
+    color: #989BA6;
+    line-height: 1;
+    margin-bottom: 32px;
+}
+
+.drn-logo-footer {
+    width: 80%;
+}
+
+.drn-text9 {
+    font-size: 12px;
+    color: #989BA6;
+    text-align: right;
+    margin: 0;
+}
+
+
+/* END FOOTER */
+
+
+/* FAQ CSS */
+
+#faq {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
+    flex-flow: column;
+    text-align: center;
+    background-color: #3B4157;
+    margin-bottom: 40px;
+}
+
+#faq .accordion button .accordion-title {
+    color: #fff;
+    padding-left: 36px;
+}
+
+#faq .accordion button .icon {
+    color: #FF594E;
+    border: 1px solid;
+    border-radius: 0;
+    border: none;
+    left: 0;
+}
+
+#faq .accordion .accordion-content p {
+    font-weight: 400;
+    margin: 2em 0;
+    color: #fff;
+}
+
+.lista-form {
+    color: white;
+}
+
+.form-lista {
+    font-size: 1rem;
+}
+
+.form-lista::marker {
+    color: #fff;
+}
+
+.accordion {
+    text-align: left;
+    transition: 0.4s ease-in-out;
+}
+
+.accordion-item {
+    border: 0px solid rgba(0, 0, 0, .125);
+}
+
+.accordion .accordion-item {
+    border-bottom: 1px solid #fff !important;
+}
+
+.accordion .accordion-item button[aria-expanded=true] {
+    border-bottom: 1px solid #FF594E;
+}
+
+.accordion button {
+    position: relative;
+    display: block;
+    text-align: left;
+    width: 100%;
+    padding: 1em 2em 1em 0;
+    color: #FF594E;
+    font-size: 1.15rem;
+    font-weight: 400;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.accordion button:hover,
+.accordion button:focus {
+    cursor: pointer;
+    color: #FF594E;
+}
+
+.accordion button:hover::after,
+.accordion button:focus::after {
+    cursor: pointer;
+    color: #FF594E;
+    border: 1px solid #FF594E;
+}
+
+.accordion button .accordion-title {
+    padding: 1em 1.5em 1em 0;
+}
+
+.accordion button .icon {
+    display: inline-block;
+    position: absolute;
+    top: 18px;
+    right: 0;
+    width: 22px;
+    height: 22px;
+    border: 1px solid;
+    border-radius: 22px;
+}
+
+.accordion button .icon::before {
+    display: block;
+    position: absolute;
+    content: "";
+    top: 9px;
+    left: 5px;
+    width: 10px;
+    height: 2px;
+    background: currentColor;
+}
+
+.accordion button .icon::after {
+    display: block;
+    position: absolute;
+    content: "";
+    top: 5px;
+    left: 9px;
+    width: 2px;
+    height: 10px;
+    background: currentColor;
+}
+
+.accordion button[aria-expanded=true] {
+    color: #FF594E;
+}
+
+.accordion button[aria-expanded=true] .icon::after {
+    width: 0;
+}
+
+.accordion button[aria-expanded=true]+.accordion-content {
+    opacity: 1;
+    max-height: 30em;
+    transition: all 200ms linear;
+    will-change: opacity, max-height;
+}
+
+.accordion .accordion-content {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 200ms linear, max-height 200ms linear;
+    will-change: opacity, max-height;
+}
+
+.accordion .accordion-content p {
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 2em 0;
+    color: #FF594E;
+}
+
+.accordion .accordion-content p a {
+    color: #FF594E;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.accordion .accordion-content p .underline {
+    text-decoration: underline
+}
+
+
+/* END FAQ CSS */
+
+@media only screen and (max-width: 991px) {
+    #faq .accordion button .accordion-title {
+        padding-left: 25px;
+    }
+    .accordion button {
+        font-size: 17px;
+    }
+    .accordion .accordion-content p {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #faq .accordion button .accordion-title {
+        padding-left: 25px;
+    }
+    .accordion button {
+        font-size: 17px;
+    }
+    .accordion .accordion-content p {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+    .background-image {
+        background-position: right;
+    }
+    .bg-white {
+        padding: 72px 0;
+    }
+    .drn-text1 {
+        font-size: 16px;
+    }
+    .drn-text2 {
+        font-size: 40px;
+    }
+    .drn-text3 {
+        font-size: 24px;
+    }
+    .drn-text4 {
+        font-size: 40px;
+    }
+    .drn-text5 {
+        font-size: 20px;
+        line-height: normal;
+    }
+    .drn-text6 {
+        font-size: 20px;
+        line-height: normal;
+    }
+    .drn-text7 {
+        font-size: 40px;
+        margin-bottom: 12px;
+        padding: 0;
+    }
+    .drn-text8 {
+        font-size: 12px;
+        line-height: normal;
+    }
+    .drn-text9 {
+        font-size: 10px;
+    }
+    .drn-text10 {
+        font-size: 16px;
+    }
+    .drn-text11 {
+        font-size: 14px;
+    }
+    .container-img {
+        padding: 0;
+    }
+    .drn-image1 {
+        width: 100%;
+    }
+    .drn-titulo {
+        font-size: 40px;
+        margin: 24px auto 24px;
+        width: 95%;
+    }
+    .drn-titulo span {
+        font-size: 40px;
+        padding: 0 32px;
+    }
+    .line2 {
+        width: 7%;
+        margin-bottom: 72px;
+    }
+    .drn-btn-ckt {
+        width: 55%;
+        padding: 24px 0;
+        font-size: 40px;
+        margin: 72px auto 96px;
+    }
+    .list-container {
+        margin: 0px auto 48px;
+        width: 55%;
+    }
+    li {
+        font-size: 20px;
+    }
+    .drn-logo-footer {
+        width: 100%;
+    }
+    .doutor-rafael {
+        right: 5%;
+        width: 35%;
+    }
+    .selo {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .background-image {
+        background-position: center;
+    }
+    .bg-conteudo {
+        padding: 64px 0 0;
+    }
+    .bg-white {
+        padding: 72px 0;
+    }
+    .drn-logo {
+        width: 100%;
+    }
+    .drn-text1 {
+        font-size: 16px;
+    }
+    .drn-text2 {
+        font-size: 40px;
+        margin-bottom: 12px;
+    }
+    .drn-text3 {
+        font-size: 18px;
+    }
+    .drn-text4 {
+        font-size: 40px;
+    }
+    .drn-text5 {
+        font-size: 18px;
+        line-height: normal;
+    }
+    .drn-text6 {
+        font-size: 18px;
+        line-height: normal;
+    }
+    .drn-text7 {
+        font-size: 32px;
+        margin-bottom: 12px;
+    }
+    .drn-text8 {
+        font-size: 12px;
+        line-height: normal;
+    }
+    .drn-text9 {
+        font-size: 10px;
+    }
+    .drn-text10 {
+        font-size: 12px;
+    }
+    .drn-text11 {
+        font-size: 12px;
+    }
+    .container-img {
+        padding: 0;
+    }
+    .container-img2 {
+        padding: 0;
+    }
+    .drn-image1 {
+        width: 100%;
+    }
+    .drn-image2 {
+        width: 100%;
+    }
+    .drn-image3 {
+        width: 100%;
+    }
+    .drn-titulo {
+        font-size: 32px;
+        margin: 20px auto 20px;
+        width: 100%;
+    }
+    .drn-titulo span {
+        font-size: 32px;
+        padding: 0 24px;
+    }
+    .line2 {
+        width: 10%;
+        margin-bottom: 100px;
+        border-bottom: 7px solid #868A98;
+    }
+    .drn-btn-ckt {
+        width: 70%;
+        padding: 20px 0;
+        font-size: 36px;
+        margin: 100px auto 120px;
+        border-radius: 18px;
+    }
+    .list-container {
+        margin: 0px auto 48px;
+        width: 65%;
+    }
+    li {
+        font-size: 18px;
+    }
+    .drn-logo-footer {
+        width: 100%;
+    }
+    .doutor-rafael {
+        right: -10%;
+        width: 55%;
+    }
+    .selo {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .buy-desktop {
+        display: none;
+    }
+    .buy-mobile {
+        display: block;
+    }
+    .nav {
+        width: 100%;
+        margin: 32px auto;
+    }
+    .nav-pills .nav-item {
+        background: #E6E7E7;
+        border-radius: 0.25rem;
+        margin: 0 0.25rem;
+        padding: 0.5rem;
+    }
+    .background-image {
+        background-size: cover;
+        background-position: center;
+    }
+    .bg-conteudo {
+        padding: 64px 0 0;
+    }
+    .bg-white {
+        padding: 64px 0;
+    }
+    .drn-logo {
+        width: 50%;
+        margin: auto;
+        display: block;
+    }
+    .drn-text1 {
+        display: none;
+    }
+    .drn-text2 {
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 24px;
+    }
+    .drn-text3 {
+        font-size: 18px;
+        text-align: center;
+    }
+    .drn-text4 {
+        font-size: 36px;
+        text-align: center;
+    }
+    .drn-text5 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .drn-text6 {
+        font-size: 20px;
+        width: 100%;
+    }
+    .drn-text7 {
+        font-size: 36px;
+        margin-bottom: 32px;
+    }
+    .drn-text10 {
+        font-size: 16px;
+        text-align: center;
+    }
+    .drn-text11 {
+        font-size: 14px;
+    }
+    .drn-titulo {
+        font-size: 40px;
+        width: 100%;
+    }
+    .drn-titulo span {
+        padding: 0 30px;
+        font-size: 32px;
+        width: 70%;
+    }
+    .line2 {
+        width: 15%;
+    }
+    .container-img {
+        display: block;
+        padding: 0;
+    }
+    .container-img2 {
+        display: block;
+        padding: 0;
+    }
+    .drn-image1 {
+        width: 90%;
+        margin: auto;
+        display: block;
+    }
+    .drn-image2 {
+        display: none;
+    }
+    .drn-image2-mobile {
+        display: block;
+        margin: auto;
+        width: 50%;
+    }
+    .image-center-container {
+        width: 80%;
+    }
+    .drn-btn-ckt {
+        width: 100%;
+        padding: 24px 0;
+        font-size: 40px;
+    }
+    .list-container {
+        margin: 0 auto 40px;
+        width: 100%;
+    }
+    li {
+        font-size: 20px;
+    }
+    .drn-logo-footer {
+        width: 40%;
+        margin: 0 auto 32px;
+        display: block;
+    }
+    .br-mobile {
+        display: block;
+    }
+    #buy .lead {
+        font-size: 1.65rem;
+        line-height: 1.1;
+    }
+    .nav-pills a * {
+        color: #111;
+        opacity: .6;
+        transition: opacity .4s;
+    }
+    #pills-buy-type {
+        margin-top: -10px;
+    }
+    #badge-discount-mobile {
+        width: 100px;
+        position: relative;
+        float: right;
+        bottom: -5px;
+        right: -10px;
+        z-index: 99;
+    }
+    .checkbox-mobile,
+    .checkbox-mobile * {
+        display: inline;
+        font-size: 16px;
+    }
+    .terms-mobile {
+        font-size: .7rem;
+    }
+    #product-preview {
+        /*display: none !important;*/
+        max-height: 150px;
+        margin: 10px auto 15px;
+    }
+    .btn {
+        font-family: 'Effra Bold', sans-serif;
+    }
+    .drnature-check {
+        font-size: .95rem;
+        width: 100%;
+    }
+    .btn-primary {
+        width: 100%;
+    }
+    .doutor-rafael {
+        display: none;
+    }
+    .selo {
+        width: 50%;
+    }
+}
+
+@media (max-width: 425px) {
+    .drn-btn-ckt {
+        font-size: 32px;
+    }
+    .background-gray {
+        padding: 64px 0;
+    }
+    .line2 {
+        border-bottom: 7px solid #868A98;
+        width: 25%;
+    }
+    .drn-titulo span {
+        width: 90%;
+    }
+}
+
+@media (max-width: 375px) {
+    .drn-titulo span {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 325px) {
+    .drn-titulo span {
+        font-size: 24px;
+    }
+}
