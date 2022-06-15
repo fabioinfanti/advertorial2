@@ -140,13 +140,13 @@ $(document).ready(function() {
 
     /* Image preview */
     $('[data-quantity]').on('click', function() {
-        var prefixo_produto = $('#prefixo-produto').val();
-        $('#product-preview').attr('src', './assets/img/buy/produtos/' + prefixo_produto + '-' + $(this).data('quantity') + '.png');
+        var prefixo_produto = $('#product-preview').val();
+        $('#product-preview').attr('src', './assets/img/buy/produtos/aaox' + prefixo_produto + '-' + $(this).data('quantity') + '.png');
     });
     $('#pills-buy-type .nav-link').on('click', function() {
-        var prefixo_produto = $('#prefixo-produto').val();
+        var prefixo_produto = $('#product-preview').val();
         var target = $(this).attr('href');
-        $('#product-preview').attr('src', './assets/img/buy/produtos/' + prefixo_produto + '-' + $(target).find('.nav-link.active').data('quantity') + '.png');
+        $('#product-preview').attr('src', './assets/img/buy/produtos/aaox' + prefixo_produto + '-' + $(target).find('.nav-link.active').data('quantity') + '.png');
     });
 
 });

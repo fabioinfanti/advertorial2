@@ -142,18 +142,17 @@ b {
     text-align: center;
     line-height: 1;
     margin: 0 auto 32px;
-    width: 85%;
+    width: 75%;
     color: white;
-    width: 65%;
 }
 
 .drn-titulo span {
     color: white;
     background-image: url(../image/mark.svg);
     background-size: cover;
-    font-size: 48px;
+    font-size: 32px;
     text-transform: uppercase;
-    width: 60%;
+    width: 40%;
     display: block;
     margin: 0 auto;
 }
@@ -209,6 +208,7 @@ b {
     padding: 32px 24px;
     border-radius: 0 12px 12px 0;
     background-color: white;
+    position: relative;
 }
 
 .box-white-buy-mobile {
@@ -275,7 +275,7 @@ b {
 #badge-discount {
     position: absolute;
     width: 85px;
-    top: 55px;
+    top: -55px;
     right: -5px;
 }
 
@@ -487,6 +487,7 @@ li::marker {
 
 .accordion-item {
     border: 0px solid rgba(0, 0, 0, .125);
+    background-color: transparent !important;
 }
 
 .accordion .accordion-item {
@@ -680,13 +681,14 @@ li::marker {
         width: 100%;
     }
     .drn-titulo {
-        font-size: 40px;
+        font-size: 48px;
         margin: 24px auto 24px;
-        width: 95%;
+        width: 80%;
     }
     .drn-titulo span {
-        font-size: 40px;
+        font-size: 32px;
         padding: 0 32px;
+        width: 45%;
     }
     .line2 {
         width: 7%;
@@ -784,12 +786,12 @@ li::marker {
         width: 100%;
     }
     .drn-titulo {
-        font-size: 32px;
+        font-size: 40px;
         margin: 20px auto 20px;
-        width: 100%;
+        width: 80%;
     }
     .drn-titulo span {
-        font-size: 32px;
+        font-size: 24px;
         padding: 0 24px;
     }
     .line2 {
@@ -815,8 +817,8 @@ li::marker {
         width: 100%;
     }
     .doutor-rafael {
-        right: -10%;
-        width: 55%;
+        right: 0%;
+        width: 45%;
     }
     .selo {
         width: 100%;
@@ -975,8 +977,7 @@ li::marker {
         font-size: .7rem;
     }
     #product-preview {
-        /*display: none !important;*/
-        max-height: 150px;
+        max-height: 200px;
         margin: 10px auto 15px;
     }
     .btn {
@@ -1009,18 +1010,20 @@ li::marker {
         width: 25%;
     }
     .drn-titulo span {
-        width: 90%;
+        font-size: 24px;
+        width: 60%;
     }
 }
 
 @media (max-width: 375px) {
     .drn-titulo span {
-        font-size: 28px;
+        font-size: 20px;
+        width: 50%;
     }
 }
 
 @media (max-width: 325px) {
     .drn-titulo span {
-        font-size: 24px;
+        font-size: 18px;
     }
 }
